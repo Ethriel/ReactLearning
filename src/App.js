@@ -1,12 +1,14 @@
 import React from "react";
 
+import { Lesson1 } from "./lessons";
 import { ListComponent } from "./lessons";
 import "./App.css";
 
 const App = () => {
   return (
     <div className="App">
-      <ListComponent />
+      <Lesson1 />
+      {/* <ListComponent /> */}
     </div>
   );
 };

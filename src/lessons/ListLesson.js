@@ -26,6 +26,20 @@ const ListItemComponent = ({ index, item, onDelete }) => {
   );
 };
 
+// function namedFunc() {
+//    this;
+// }
+
+// var / let / const
+// var anonFunc = function () {};
+// let anonFunc = function () {};
+// const anonFunc = function () {};
+
+const lambda = () => {};
+
+// this;
+// What is this?
+
 const ListComponent = () => {
   const [items, setItems] = useState([]);
 
