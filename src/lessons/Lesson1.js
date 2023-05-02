@@ -16,7 +16,9 @@ const Lesson1 = () => {
   return (
     <>
       <input value={value} onChange={handleChange} />
-      <button onClick={handleReset}>Reset</button>
+      <button disabled={!value} onClick={handleReset}>
+        Reset
+      </button>
     </>
   );
 };
